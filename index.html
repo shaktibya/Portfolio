@@ -9,26 +9,88 @@
     <header>
         <img src="images/profile.jpg" alt="logo" width="80">
         <nav>
-            <a href="#">Home</a>
-            <a href="#">About</a>
-            <a href="#">Projects</a>
-            <a href="#">Contact</a>
+           <ul>
+           <li> <a href="#">Home</a></li>
+           <li><a href="#about">About</a></li>
+           <li> <a href="#skills">Skills</a></li>
+            <li><a href="#projects">Projects</a></li>
+           <li><a href="#contact">Contact</a></li>
+           </ul>
             <form>
                 <input type="text" placeholder="search">
                 <button type="submit">Search</button>
             </form>
         </nav>
+
         <hr>
     </header>
     <main>
+        <section id="about">
         <h1>About Me</h1>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus ullam quo inventore reprehenderit ea facere et pariatur, 
+        <p>Lorem ipsum dolor sit amet consectetur adpisicing elit. Minus ullam quo inventore reprehenderit ea facere et pariatur, 
             eum similique dolorem fuga, corrupti neque accusantium rerum aliquid eveniet sequi. Aspernatur, officiis.
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione, natus aliquam? Totam fuga, tenetur iste rem, 
         pariatur deleniti, provident ducimus ea nihil exercitationem odio culpa expedita animi magnam consequuntur esse?</p>
          <img src="images/profile.jpg" alt="logo" width="300">
+            </section>
+       <hr>
+        <section id="skills">
+            <h1>My skills</h1>
+            <d1>
+                <dt>Programming Language</dt>
+                <dd>Java, Python, C#, JS</dd>
 
-       <hr> 
+                <dt>Frameworks</dt>
+                <dd>django, asp.dotnet, angular, blazor</dd>
+
+                <dt>Databases</dt>
+                <dd>MySql, monoDB, Postgres, Oracle</dd>
+
+                <dt>Tools</dt>
+                <dd>Visual Studio, Word, Excel, Powerpoint</dd>
+            </d1>
+        </section>
+        <section id="projects">
+            <h1>My Projects</h1>
+            <article>
+                <h3>Object Detection System</h3>
+                <p>I have created a application that correctly detect multiple objects</p>
+                <p><a href="https://github.com/" target="_blank">Click here to view Project</a></p>
+            </article>
+            <article>
+                <h3>Student Management System</h3>
+                <p>I developed a Student Management System that allows users to add, update, delete, and search student records efficiently through a simple and user-friendly interface.</p>
+                <p><a href="https://github.com/" target="_blank">Click here to view Project</a></p>
+            </article>
+        </section>
+        <section id="contact">
+    <h2>Contact Me</h2>
+    <p>If you have any questions or would like to work with me, feel free to send me a message.</p>
+
+    <form action="#" method="post">
+        <div>
+            <label>Full Name</label><br>
+            <input type="text">
+        </div>
+        <br>
+        <div>
+            <label>Email Address</label><br>
+            <input type="email">
+        </div>
+        <br>
+        <div>
+            <label>Message</label><br>
+            <input type="text">
+        </div>
+        <br>
+        <div>
+            <label>Message</label><br>
+            <textarea></textarea>
+        </div>
+        <br>
+        <button type="submit">Submit</button>
+    </form>
+</section>
     </main>
     <footer>
         <p>	&copy; 20206 My Portfolio. All rights reserved.</p>
