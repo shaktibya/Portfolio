@@ -1,6 +1,5 @@
 body{
     font-family: "segoe ui", roberto, sans-serif;
-    background: #36C8FF;
     line-height: 1.6;
     color: black;
 
@@ -9,6 +8,7 @@ header{
     display: flex;
     align-items: center;
     padding: 0.5rem 1rem 0.5rem 1rem;
+    background: #36C8FF;
 }
 
 nav ul{
