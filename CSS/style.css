@@ -1,0 +1,45 @@
+body{
+    font-family: "segoe ui", roberto, sans-serif;
+    background: #36C8FF;
+    line-height: 1.6;
+    color: black;
+
+}
+header{
+    display: flex;
+    align-items: center;
+    padding: 0.5rem 1rem 0.5rem 1rem;
+}
+
+nav ul{
+    display: flex;
+    list-style: none;
+    gap: 2rem;
+}
+nav a{
+    color: #fff;
+    text-decoration: none;
+}
+nav a:hover{
+    color: blue;
+    font-weight: 400;
+}
+header form{
+    margin-left: 2rem;
+}
+header img{
+    width: 4%;
+    border-radius: 8px;
+}
+header input, header button{
+    padding: 0.5rem;
+    border: none;
+    border-radius: 4px;
+}
+header input{
+    width: 250px;
+}
+header button{
+    background: lightblue;
+    margin-left: 10px;
+}
